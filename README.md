@@ -20,26 +20,27 @@ Use the deployed contract instance to create campaigns, contribute, withdraw, an
 
 1. Create a Campaign:
 *Call createCampaign with _goal and _deadline parameters.
-``
+```
 createCampaign(1000000000000000000, 1735689600); // 1 ETH goal, future deadline
-``
+```
 
 2. Contribute to a Campaign:
 *Call contribute with _campaignId parameter and send Ether.
-``
+```
 contribute(1); // Send Ether in the value field
-``
+```
 
 3. Withdraw Funds:
 *Call withdraw with _campaignId parameter.
-``
+```
 withdraw(1);
-``
+```
+
 4. Refund Contribution:
 *Call refund with _campaignId parameter.
-``
+```
 refund(1);
-``
+```
 
 ## Help
 ### Common Issues
